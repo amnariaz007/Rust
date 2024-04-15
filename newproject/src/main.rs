@@ -93,13 +93,57 @@
 //     }
 // }
 
-fn main (){
+// fn main (){
 
-    let name  = "Amna";
+//     let name  = "Amna";
 
-    if name == "sana" {
-        println!("name is true {}", name );
-    }else{
-        println!("name is false and {}", name );
+//     if name == "sana" {
+//         println!("name is false {}", name );
+//     }else if name == "naila"{
+//         println!("name is false and {}", name );
+//     }else {
+//         println!("name is true and {}", name );
+//     }
+// }
+
+// fn main ( ){
+
+// let mut n = 10;
+
+// while n < 1000 {
+//     println!{ "n is : {}", n}
+
+//     n +=20;
+// }
+
+// }
+
+// fn main () {
+
+//     let mut x = 2 ;
+//     let mut y = 1;
+
+//     while y <= 10{
+
+//         let mul = x*y;
+//         println!{ "mul is : {}", mul}
+
+//         y +=1;
+//     }
+
+
+// }
+
+fn main () {
+    let x = 2;
+    let y = 1;
+
+    for y in 1..11 {
+        let mul = x*y;
+        println!("{} * {} = {}" , x, y, mul);
     }
 }
+
+
+
+
