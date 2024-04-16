@@ -134,14 +134,24 @@
 
 // }
 
-fn main () {
-    let x = 2;
-    let y = 1;
+// fn main () {
+//     let x = 2;
+//     let y = 1;
 
-    for y in 1..11 {
-        let mul = x*y;
-        println!("{} * {} = {}" , x, y, mul);
-    }
+//     for y in 1..11 {
+//         let mul = x*y;
+//         println!("{} * {} = {}" , x, y, mul);
+//     }
+// }
+
+
+fn main () {
+    let x = 10;
+
+    let y = x;
+    println!(
+        "y is : {}", y
+    );
 }
 
 
